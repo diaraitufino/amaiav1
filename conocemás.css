@@ -1,0 +1,65 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; 
+    color: #2e7d32; /* Verde profundo */
+}
+
+/* Encabezado */
+header {
+    background-color: #255027; /* Verde intenso */
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-family:system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif; ;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+/* Sección de descripción */
+.descripcion {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #ebf3eb; /* Verde claro suave */
+    border-radius: 10px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Pie de página */
+footer {
+    background-color: #255027;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

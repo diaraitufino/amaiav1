@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Checkout - Amaïa</title>
+    <link rel="stylesheet" href="diaraistyles.css">
+</head>
+<body>
+    <header>Finalizar Compra</header>
+    <div class="container">
+        <div id="resumen"></div>
+        <h3>Opciones de entrega:</h3>
+        <label><input type="radio" name="entrega" value="delivery" checked> Envío a domicilio</label><br>
+        <label><input type="radio" name="entrega" value="pickup"> Recoger en tienda</label><br><br>
+        <button onclick="finalizarCompra()">Finalizar Compra</button>
+    </div>
+    <script src="checkout.js"></script>
+</body>
+</html>

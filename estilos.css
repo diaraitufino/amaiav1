@@ -1,0 +1,35 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 20px;
+  background-color: #f3f3f3;
+  color: #333;
+}
+
+.catalogo {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.producto {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: white;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+button {
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #214223;
+}
